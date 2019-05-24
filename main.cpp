@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     wifidialog w;
+    w.setWindowTitle("WIFI");
     w.show();
 
     QDesktopWidget *desktop = QApplication::desktop();
